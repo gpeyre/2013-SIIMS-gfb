@@ -1,0 +1,962 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.19)  8 JAN 2017 15:38
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**GFB-siam.tex
+(./GFB-siam.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./siamltex.cls
+Document Class: siamltex 1996/10/11 v1.2 LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 2015/03/31 v1.1i Standard LaTeX option (left equation numbers)
+) (./siam10.clo
+File: siam10.clo 1994/10/01 v1.0 SIAM LaTeX file (size option)
+)
+\c@section=\count79
+\c@subsection=\count80
+\c@subsubsection=\count81
+\c@paragraph=\count82
+\c@subparagraph=\count83
+\c@rmnum=\count84
+\c@muni=\count85
+\c@theorem=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./raguetsty/raguet_en.sty (./raguetsty/raguet.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks15
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count101
+\calc@Bcount=\count102
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count103
+\calc@Cskip=\skip48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box28
+\shadowsize=\dimen121
+\@Sbox=\box29
+\do@VerbBox=\toks20
+\the@fancyput=\toks21
+\this@fancyput=\toks22
+\EndVerbatimTokens=\toks23
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2014/07/16 v2.14 Emphasizing equations
+\l_EQ_equationtype_int=\count105
+\l_EQ_alignmentmode_int=\count106
+\l_EQ_totalwidth_dim=\dimen122
+\l_EQ_displaywidth_dim=\dimen123
+\l_EQ_temp_linewidth_dim=\dimen124
+\EmphEqdelimitershortfall=\dimen125
+\EmphEqdelimiterfactor=\count107
+\g_EQ_toptag_height_dim=\dimen126
+\g_EQ_bottomtag_depth_dim=\dimen127
+\g_EQ_toprow_height_dim=\dimen128
+\g_EQ_bottomrow_depth_dim=\dimen129
+\g_EQ_widesttag_dim=\dimen130
+\EQ_mathdisplay_box=\box30
+\EQ_tag_box=\box31
+\g_EQ_temprow_int=\count108
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip50
+\L@UnitsRaiseTextstyle=\skip51
+\L@UnitsRaiseScriptstyle=\skip52
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count109
+\float@exts=\toks24
+\float@box=\box32
+\@float@everytoks=\toks25
+\@floatcapt=\box33
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count110
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count111
+\c@ALC@line=\count112
+\c@ALC@rem=\count113
+\c@ALC@depth=\count114
+\ALC@tlm=\skip53
+\algorithmicindent=\skip54
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count115
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\footnotesize \setlengt
+h {\parindent }{1.5pc} \ifx \@captype \@figtxt \vskip \abovecaptionskip \setbox
+ \@tempboxa \hbox {{\normalfont \scshape #1}. {\normalfont \itshape #2}}\ifdim 
+\wd \@tempboxa >\hsize {\normalfont \scshape #1}. {\normalfont \itshape #2}\par
+ \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi
+ \else \hbox to\hsize {\hfil {\normalfont \scshape #1}\hfil }\setbox \@tempboxa
+ \hbox {{\normalfont \itshape #2}}\ifdim \wd \@tempboxa >\hsize {\normalfont \i
+tshape #2}\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempb
+oxa \hfil }\fi \vskip \belowcaptionskip \fi .
+\c@ContinuedFloat=\count116
+Package caption Info: float package is loaded.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen140
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen141
+\subfiglabelskip=\skip58
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen142
+\extrarowheight=\dimen143
+\NC@list=\toks27
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen144
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count121
+\TX@ftn=\toks28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen150
+\enit@toks=\toks29
+\enit@inbox=\box34
+\enitdp@description=\count122
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
+
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
+\@bigflushglue=\skip64
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+\restsubwidth=\skip65
+\restsubheight=\skip66
+\restsubmoreheight=\skip67
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count123
+\U@D=\dimen151
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(./algorithm2e.sty
+Package: algorithm2e 2005/10/04 v3.9 algorithms environments
+\c@AlgoLine=\count124
+
+********************************************************
+Package `algorithm2e' Release 3.9 -- october 04 2005 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip68
+\skiprule=\skip69
+\skiphlne=\skip70
+\skiptext=\skip71
+\skiplength=\skip72
+\algomargin=\skip73
+\skipalgocfslide=\skip74
+\algowidth=\dimen152
+\inoutsize=\dimen153
+\inoutline=\dimen154
+\algocf@inoutbox=\box35
+\algocf@inputbox=\box36
+\AlCapSkip=\skip75
+\AlCapHSkip=\skip76
+\algocf@capbox=\box37
+\c@algocfline=\count125
+\c@algocf=\count126
+\algocf@algoframe=\box38
+\algocf@algobox=\box39
+)
+\c@remark=\count127
+) (./GFB-siam.aux)
+\openout1 = `GFB-siam.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 16.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 16.
+\Hy@linkcounter=\count128
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen155
+\scratchbox=\box40
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen156
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 20.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) (./GFB-txt.tex
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 117.
+
+
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+ [3]
+[4]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 161.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+[6]
+Overfull \hbox (31.44022pt too wide) in paragraph at lines 264--267
+\T1/cmr/m/n/10 where $\OML/cmm/m/it/10 P[]$ \T1/cmr/m/n/10 is the or-thog-o-nal
+ pro-jec-tor on the sub-space $[][] [] []$.
+ []
+
+[7] [8] [9] <images/LaBouteWvlt.png, id=68, 256.96pt x 256.96pt>
+File: images/LaBouteWvlt.png Graphic file (type png)
+
+<use images/LaBouteWvlt.png>
+Package pdftex.def Info: images/LaBouteWvlt.png used on input line 414.
+(pdftex.def)             Requested size: 113.81102pt x 113.81163pt.
+
+<images/LaBouteWvltBlocks1.png, id=69, 256.96pt x 256.96pt>
+File: images/LaBouteWvltBlocks1.png Graphic file (type png)
+
+<use images/LaBouteWvltBlocks1.png>
+Package pdftex.def Info: images/LaBouteWvltBlocks1.png used on input line 417.
+(pdftex.def)             Requested size: 113.81102pt x 113.81163pt.
+
+<images/LaBouteWvltBlocks2.png, id=70, 256.96pt x 256.96pt>
+File: images/LaBouteWvltBlocks2.png Graphic file (type png)
+
+<use images/LaBouteWvltBlocks2.png>
+Package pdftex.def Info: images/LaBouteWvltBlocks2.png used on input line 422.
+(pdftex.def)             Requested size: 113.81102pt x 113.81163pt.
+ [10] [11 <./images/LaBouteWvlt.png (PNG copy)> <./images/LaBouteWvltBlocks1.pn
+g (PNG copy)> <./images/LaBouteWvltBlocks2.png (PNG copy)>] [12]
+\@float@every@figure=\toks32
+
+<images/deblurring_l1l2_2_100_curves.pdf, id=84, 209.77579pt x 136.03558pt>
+File: images/deblurring_l1l2_2_100_curves.pdf Graphic file (type pdf)
+
+<use images/deblurring_l1l2_2_100_curves.pdf>
+Package pdftex.def Info: images/deblurring_l1l2_2_100_curves.pdf used on input 
+line 531.
+(pdftex.def)             Requested size: 185.19186pt x 120.09776pt.
+
+<images/LaBoute.png, id=85, 256.96pt x 256.96pt>
+File: images/LaBoute.png Graphic file (type png)
+ <use images/LaBoute.png>
+Package pdftex.def Info: images/LaBoute.png used on input line 544.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/deblurring_l1l2_2_100_obs.png, id=86, 256.96pt x 256.96pt>
+File: images/deblurring_l1l2_2_100_obs.png Graphic file (type png)
+
+<use images/deblurring_l1l2_2_100_obs.png>
+Package pdftex.def Info: images/deblurring_l1l2_2_100_obs.png used on input lin
+e 547.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/deblurring_l1l2_2_100_recov.png, id=87, 256.96pt x 256.96pt>
+File: images/deblurring_l1l2_2_100_recov.png Graphic file (type png)
+
+<use images/deblurring_l1l2_2_100_recov.png>
+Package pdftex.def Info: images/deblurring_l1l2_2_100_recov.png used on input l
+ine 550.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/inpainting_l1l2_4_100_curves.pdf, id=88, 218.14024pt x 136.31789pt>
+File: images/inpainting_l1l2_4_100_curves.pdf Graphic file (type pdf)
+
+<use images/inpainting_l1l2_4_100_curves.pdf>
+Package pdftex.def Info: images/inpainting_l1l2_4_100_curves.pdf used on input 
+line 560.
+(pdftex.def)             Requested size: 185.19186pt x 115.73553pt.
+File: images/LaBoute.png Graphic file (type png)
+ <use images/LaBoute.png>
+Package pdftex.def Info: images/LaBoute.png used on input line 573.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/inpainting_l1l2_4_100_obs.png, id=89, 256.96pt x 256.96pt>
+File: images/inpainting_l1l2_4_100_obs.png Graphic file (type png)
+
+<use images/inpainting_l1l2_4_100_obs.png>
+Package pdftex.def Info: images/inpainting_l1l2_4_100_obs.png used on input lin
+e 576.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/inpainting_l1l2_4_100_recov.png, id=90, 256.96pt x 256.96pt>
+File: images/inpainting_l1l2_4_100_recov.png Graphic file (type png)
+
+<use images/inpainting_l1l2_4_100_recov.png>
+Package pdftex.def Info: images/inpainting_l1l2_4_100_recov.png used on input l
+ine 579.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_4_100_curves.pdf, id=91, 209.77579pt x 136.41211pt>
+File: images/composite_l1l2_4_100_curves.pdf Graphic file (type pdf)
+
+<use images/composite_l1l2_4_100_curves.pdf>
+Package pdftex.def Info: images/composite_l1l2_4_100_curves.pdf used on input l
+ine 589.
+(pdftex.def)             Requested size: 177.78261pt x 115.61156pt.
+File: images/LaBoute.png Graphic file (type png)
+ <use images/LaBoute.png>
+Package pdftex.def Info: images/LaBoute.png used on input line 602.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_4_100_obs.png, id=92, 256.96pt x 256.96pt>
+File: images/composite_l1l2_4_100_obs.png Graphic file (type png)
+
+<use images/composite_l1l2_4_100_obs.png>
+Package pdftex.def Info: images/composite_l1l2_4_100_obs.png used on input line
+ 605.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_4_100_recov.png, id=93, 256.96pt x 256.96pt>
+File: images/composite_l1l2_4_100_recov.png Graphic file (type png)
+
+<use images/composite_l1l2_4_100_recov.png>
+Package pdftex.def Info: images/composite_l1l2_4_100_recov.png used on input li
+ne 608.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_tv_4_100_curves.pdf, id=94, 209.77579pt x 136.41211pt>
+File: images/composite_l1l2_tv_4_100_curves.pdf Graphic file (type pdf)
+
+<use images/composite_l1l2_tv_4_100_curves.pdf>
+Package pdftex.def Info: images/composite_l1l2_tv_4_100_curves.pdf used on inpu
+t line 618.
+(pdftex.def)             Requested size: 177.78261pt x 115.61156pt.
+File: images/LaBoute.png Graphic file (type png)
+ <use images/LaBoute.png>
+Package pdftex.def Info: images/LaBoute.png used on input line 631.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_tv_4_100_obs.png, id=95, 256.96pt x 256.96pt>
+File: images/composite_l1l2_tv_4_100_obs.png Graphic file (type png)
+
+<use images/composite_l1l2_tv_4_100_obs.png>
+Package pdftex.def Info: images/composite_l1l2_tv_4_100_obs.png used on input l
+ine 634.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+
+<images/composite_l1l2_tv_4_100_recov.png, id=96, 256.96pt x 256.96pt>
+File: images/composite_l1l2_tv_4_100_recov.png Graphic file (type png)
+
+<use images/composite_l1l2_tv_4_100_recov.png>
+Package pdftex.def Info: images/composite_l1l2_tv_4_100_recov.png used on input
+ line 637.
+(pdftex.def)             Requested size: 111.11624pt x 111.11798pt.
+ [13] [14 <./images/deblurring_l1l2_2_100_curves.pdf> <./images/LaBoute.png (PN
+G copy)> <./images/deblurring_l1l2_2_100_obs.png (PNG copy)> <./images/deblurri
+ng_l1l2_2_100_recov.png (PNG copy)> <./images/inpainting_l1l2_4_100_curves.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/inpainting_l1l2_4_1
+00_curves.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <./images/inpainting_l1l2_4_100_obs.png (PNG copy)> <./images/inpainting_l1l2
+_4_100_recov.png (PNG copy)>] [15 <./images/composite_l1l2_4_100_curves.pdf> <.
+/images/composite_l1l2_4_100_obs.png (PNG copy)> <./images/composite_l1l2_4_100
+_recov.png (PNG copy)> <./images/composite_l1l2_tv_4_100_curves.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/composite_l1l2_tv_4
+_100_curves.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./images/composite_l1l2_tv_4_100_obs.png (PNG copy)> <./images/composite_l1l
+2_tv_4_100_recov.png (PNG copy)>] [16] [17] [18]
+Overfull \hbox (8.2007pt too wide) in paragraph at lines 914--917
+\T1/cmr/m/n/10 and the sec-ond equal-ity us-ing that for all $\OML/cmm/b/it/10 
+x \OMS/cmsy/m/n/10 2 []$\T1/cmr/m/n/10 , $\OML/cmm/b/it/10 B\OML/cmm/m/it/10 P[
+]\OML/cmm/b/it/10 x \OMS/cmsy/m/n/10 2 []$\T1/cmr/m/n/10 . From Lemma 4.7[] (ii
+i)[]$\OMS/cmsy/m/n/10 ,$\T1/cmr/m/n/10 (i)[],
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1010
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1046
+
+ []
+
+[21]
+Overfull \hbox (13.71815pt too wide) in alignment at lines 1083--1085
+ [][][] []
+ []
+
+
+Overfull \hbox (101.80772pt too wide) in alignment at lines 1087--1092
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1118
+
+ []
+
+[23]
+Overfull \hbox (9.47504pt too wide) in paragraph at lines 1145--1149
+\T1/cmr/m/n/10 pro-vides that $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OT1/cmr/m
+/n/10 + [][] \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ) = [] [] \OMS/cmsy/m/n/10 6\O
+T1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ;$\T1/cmr/m/n/10 . Fur-ther-more, in Lemma 4.8
+[](i)[]
+ []
+
+) (./GFB-siam.bbl [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26])
+[27] (./GFB-siam.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9815 strings out of 493014
+ 141679 string characters out of 6133351
+ 240283 words of memory out of 5000000
+ 13096 multiletter control sequences out of 15000+600000
+ 32507 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,20n,42p,1860b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy5.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmb
+sy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
+8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfti0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/cm-super/sftt0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/stmaryrd/stmary10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/stmaryrd/stmary7.pfb>
+Output written on GFB-siam.pdf (27 pages, 1386788 bytes).
+PDF statistics:
+ 352 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

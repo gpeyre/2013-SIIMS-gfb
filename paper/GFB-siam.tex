@@ -1,0 +1,50 @@
+\documentclass[final]{siamltex}
+\usepackage{raguetsty/raguet_en}
+
+% GAB: \bigtimes not defined on my system...
+\usepackage{stmaryrd}
+\DeclareMathOperator*{\bigtimes}{\vartimes}
+
+\title{A Generalized Forward-Backward Splitting}
+
+\author{Hugo Raguet\footnotemark[1]
+\and
+Jalal Fadili\footnotemark[2]
+\and
+Gabriel Peyr\'e\footnotemark[1]}
+
+\begin{document}
+
+\maketitle
+
+\footnotetext[1]{CEREMADE, CNRS-Universit\'e Paris-Dauphine, Place du Mar\'echal De Lattre De Tassigny, 75775 Paris Cedex 16, France (\url{gabriel.peyre@ceremade.dauphine.fr}).}
+\footnotetext[2]{GREYC, CNRS-ENSICAEN-Universit\'e de Caen, 6, Bd du Mar\'echal Juin, 14050 Caen Cedex, France (\url{Jalal.Fadili@greyc.ensicaen.fr})}
+
+\begin{abstract}
+This paper introduces a generalized forward-backward splitting algorithm for finding a zero of a sum of maximal monotone operators $B + \sum_{i=1}^{n} A_i$, where $B$ is cocoercive. It involves the computation of $B$ in an explicit (forward) step and of the parallel computation of the resolvents of the $A_i$'s in a subsequent implicit (backward) step. We prove its convergence in infinite dimension, and robustness to summable errors on the computed operators in the explicit and implicit steps. 
+In particular, this allows efficient minimization of the sum of convex functions $f + \sum_{i=1}^n g_i$, where $f$ has a Lipschitz-continuous gradient and each $g_i$ is simple in the sense that its proximity operator is easy to compute. The resulting method makes use of the regularity of $f$ in the forward step, and the proximity operators of the $g_i$'s are applied in parallel in the backward step.
+While the forward-backward algorithm cannot deal with more than $n = 1$ non-smooth function, we generalize it to the case of arbitrary $n$. Examples on inverse problems in imaging demonstrate the advantage of the proposed methods in comparison to other splitting algorithms.
+\end{abstract}
+
+\begin{keywords}
+	 Forward-backward algorithm, monotone operator splitting, non-smooth convex optimization, proximal splitting, image processing, sparsity.
+\end{keywords}
+
+\begin{AMS}\end{AMS}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{0}
+
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markboth{H. Raguet, J. Fadili, G. Peyr\'e}{Generalized Forward-Backward Splitting}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\siam}{~} %\siam is defined
+\input{GFB-txt.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{siam}
+\bibliography{GFB}
+
+\end{document}

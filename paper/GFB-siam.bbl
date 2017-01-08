@@ -1,0 +1,383 @@
+\begin{thebibliography}{10}
+
+\bibitem{AckerPrestel80}
+{\sc F.~Acker and M.~A. Prestel}, {\em Convergence d'un sch{\'e}ma de
+  minimisation altern{\'e}e}, Annales de la facult{\'e} des sciences de
+  Toulouse, 5,2 (1980), pp.~1--9.
+
+\bibitem{Figueiredo10a}
+{\sc M.~V. Afonso, J.~M. Bioucas-Dias, and M.~A.~T. Figueiredo}, {\em Fast
+  image recovery using variable splitting and constrained optimization}, {IEEE}
+  Transactions on Image Processing, 19 (2010), pp.~2345--2356.
+
+\bibitem{ArrowHurwicz58}
+{\sc K.~J. Arrow, L.~Hurwicz, and H.~Uzawa}, {\em Studies in linear and
+  non-linear programming}, Stanford University Press, 1958.
+
+\bibitem{Attouch10}
+{\sc H.~Attouch, L.~M. Brice{\~n}o-Arias, and P.~L. Combettes}, {\em A parallel
+  splitting method for coupled monotone inclusions}, SIAM J. Control Optim., 48
+  (2010), pp.~3246--3270.
+
+\bibitem{BaillonHaddad77}
+{\sc J.-B. Baillon and G.~Haddad}, {\em Quelques propri{\'e}t{\'e}s des
+  op{\'e}rateurs angle-born{\'e}s et n-cycliquement monotones}, Israel J. Math,
+  26 (1977), pp.~137--150.
+
+\bibitem{BauschkeCombettes11}
+{\sc H.~H. Bauschke and P.~L. Combettes}, {\em Convex Analysis and Monotone
+  Operator Theory in {H}ilbert Spaces.}, Springer-Verlag, New York, 2011.
+
+\bibitem{Bauschke05}
+{\sc H.~H. Bauschke, P.~L. Combettes, and S.~Reich}, {\em The asymptotic
+  behavior of the composition of two resolvents}, Nonlinear Analysis-theory
+  Methods \& Applications, 60 (2005), pp.~283--301.
+
+\bibitem{BeckTeboulle09}
+{\sc A.~Beck and M.~Teboulle}, {\em A fast iterative shrinkage-thresholding
+  algorithm for linear inverse problems}, SIAM J. Img. Sci., 2 (2009),
+  pp.~183--202.
+
+\bibitem{Bredies08}
+{\sc K.~Bredies and D.~A. Lorenz}, {\em Linear convergence of iterative
+  soft-thresholding}, J. Fourier Anal. Appl., 14 (2008).
+\newblock 813--837.
+
+\bibitem{Briceno-Arias09}
+{\sc L.~M. Brice{\~{n}}o-Arias and P.~L. Combettes}, {\em Convex variational
+  formulation with smooth coupling for multicomponent signal decomposition and
+  recovery}, Numer. Math. Theory Methods Appl., 2 (2009), pp.~485--508.
+
+\bibitem{Briceno-AriasCombettes11}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em A monotone+skew
+  splitting model for composite monotone inclusions in duality}, SIAM J. Opt.,
+  21 (2011), pp.~1230--1250.
+
+\bibitem{Briceno-Arias10}
+{\sc L.~M. Brice{\~{n}}o-Arias, P.~L. Combettes, J.-C. Pesquet, and
+  N.~Pustelnik}, {\em Proximal algorithms for multicomponent image recovery
+  problems}, Journal of Mathematical Imaging and Vision,  (2010), pp.~1--20.
+
+\bibitem{Browder67}
+{\sc F.~E. Browder}, {\em Convergence theorems for sequences of nonlinear
+  operators in banach spaces}, Mathematische Zeitschrift, 100 (1967),
+  pp.~201--225.
+
+\bibitem{ChambollePock11}
+{\sc A.~Chambolle and T.~Pock}, {\em A first-order primal-dual algorithm for
+  convex problems with applications to imaging}, J. Math. Imaging Vis., 40
+  (2011), pp.~120--145.
+
+\bibitem{Chaux05}
+{\sc C.~Chaux, A.~Benazza-Benyahia, and J.-C. Pesquet}, {\em A
+  block-thresholding method for multispectral image denoising}, in SPIE
+  Conference, vol.~5914, San Diego, CA, 2005, pp.~1H--1--1H--13.
+
+\bibitem{Chaux07}
+{\sc C.~Chaux, P.~L. Combettes, J.-C. Pesquet, and V.~R. Wajs}, {\em A
+  variational formulation for frame based inverse problems}, Inverse Problems,
+  23 (2007), pp.~1495--1518.
+
+\bibitem{Chaux09}
+{\sc C.~Chaux, J.-C. Pesquet, and N.~Pustelnik}, {\em Nested iterative
+  algorithms for convex constrained image recovery problems}, SIAM Journal on
+  Imaging Sciences, 2 (2009), pp.~730--762.
+
+\bibitem{ChenTeboulle94}
+{\sc G.~Chen and M.~Teboulle}, {\em A proximal-based decomposition method for
+  convex minimization problems}, Math. Program., 64 (1994), pp.~81--101.
+
+\bibitem{ChenRockafellar97}
+{\sc G.~H.-G. Chen and R.~T. Rockafellar}, {\em Convergence rates in
+  forward--backward splitting}, SIAM Journal on Optimization, 7 (1997),
+  pp.~421--444.
+
+\bibitem{Combettes04}
+{\sc P.~L. Combettes}, {\em Solving monotone inclusions via compositions of
+  nonexpansive averaged operators}, Optimization, 53 (2004), pp.~475--504.
+
+\bibitem{Combettes09b}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Iterative
+  construction of the resolvent of a sum of maximal monotone opera- tors}, J.
+  Convex Anal., 16 (2009), pp.~727--748.
+
+\bibitem{Combettes10}
+{\sc P.~L. Combettes, D.~D{\~{u}}ng, and B.~C. V{\~{u}}}, {\em Dualization of
+  signal recovery problems}, Set-Valued and Variational Analysis, 18 (2010),
+  pp.~373--404.
+
+\bibitem{Combettes07a}
+{\sc P.~L. Combettes and J.-C. Pesquet}, {\em A {D}ouglas-{R}achford splitting
+  approach to nonsmooth convex variational signal recovery}, IEEE J. Selected
+  Topics in Signal Processing, 1 (2007), pp.~564--574.
+
+\bibitem{CombettesPesquet08}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em A proximal
+  decomposition method for solving convex variational inverse problems},
+  Inverse Problems, 24 (2008), p.~065014.
+
+\bibitem{CombettesPesquet09}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Fixed-Point
+  Algorithms for Inverse Problems in Science and Engineering}, Springer-Verlag,
+  2011, ch.~Proximal Splitting Methods in Signal Processing, pp.~185--212.
+
+\bibitem{CombettesPesquet11}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Primal-dual
+  splitting algorithm for solving inclusions with mixtures of composite,
+  {L}ipschitzian, and parallel-sum monotone operators}, Set-Valued and
+  Variational Analysis, 20 (2012), pp.~307--330.
+
+\bibitem{CombettesWajs05}
+{\sc P.~L. Combettes and V.~R. Wajs}, {\em Signal recovery by proximal
+  forward-backward splitting}, SIAM Multiscale Modeling and Simulation, 4
+  (2005), p.~1168.
+
+\bibitem{Condat11}
+{\sc L.~Condat}, {\em {A generic first-order primal-dual method for convex
+  optimization involving Lipschitzian, proximable and linear composite terms}},
+  Tech. Report hal-00609728v2, July 2011.
+
+\bibitem{Daubechies04}
+{\sc I.~Daubechies, M.~Defrise, and C.~De Mol}, {\em An iterative thresholding
+  algorithm for linear inverse problems with a sparsity constraint}, Commun. on
+  Pure and Appl. Math., 57 (2004), pp.~1413--1541.
+
+\bibitem{Donoho95}
+{\sc D.~L. Donoho}, {\em De-noising by soft-thresholding}, IEEE Transactions on
+  Information Theory, 41 (1995), pp.~613--627.
+
+\bibitem{DouglasRachford56}
+{\sc J.~Douglas and H.~H. Rachford}, {\em On the numerical solution of heat
+  conduction problems in two and three space variables}, Transactions of the
+  American Mathematical Society, 82 (1956), pp.~421--439.
+
+\bibitem{Dupe11a}
+{\sc F.-X. Dup\'e, J.~M. Fadili, and J.-L. Starck}, {\em Inverse problems with
+  {P}oisson noise: Primal and primal-dual splitting}, in International
+  Conference on Image Processing (ICIP), Brussels, 2011.
+
+\bibitem{Dupe11b}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Linear inverse
+  problems with various noise models and mixed regularizations}, in 1st
+  International Workshop on New Computational Methods for Inverse Problems,
+  Paris, 2011.
+
+\bibitem{Dupe09}
+{\sc F.-X. Dup{\'e}, M.~J. Fadili, and J.-L. Starck}, {\em A proximal iteration
+  for deconvolving {P}oisson noisy images using sparse representations}, IEEE
+  Transactions on Image Processing, 18 (2009), pp.~310--321.
+
+\bibitem{Dupe12}
+{\sc F.-X. Dup\'e, M.~J. Fadili, and J.-L. Starck}, {\em Deconvolution under
+  {P}oisson noise using exact data fidelity and synthesis or analysis sparsity
+  priors}, Statistical Methodology, 9 (2012), pp.~4--18.
+
+\bibitem{Eckstein94}
+{\sc J.~Eckstein}, {\em Parallel alternating direction multiplier decomposition
+  of convex programs}, Journal of Optimization Theory and Applications, 80
+  (1994), pp.~39--62.
+
+\bibitem{EcksteinBertsekas92}
+{\sc J.~Eckstein and D.~P. Bertsekas}, {\em On the {D}ouglas-{R}achford
+  splitting method and the proximal point algorithm for maximal monotone
+  operators}, Math. Program., 55 (1992), pp.~293--318.
+
+\bibitem{EcksteinSvaiter09}
+{\sc J.~Eckstein and B.~F. Svaiter}, {\em General projective splitting methods
+  for sums of maximal monotone operators}, SIAM J. Control Optim., 48 (2009),
+  pp.~787--811.
+
+\bibitem{Elhamifar09}
+{\sc E.~Elhamifar and R.~Vidal}, {\em Robust classification using structured
+  sparse representation}, in CVPR, 2011, pp.~1873--1879.
+
+\bibitem{FadiliPeyre10}
+{\sc M.~J. Fadili and G.~Peyr{\'e}}, {\em Total variation projection with first
+  order schemes}, {IEEE} Transactions on Image Processing, 20 (2010),
+  pp.~657--669.
+
+\bibitem{Fadili06}
+{\sc M.~J. Fadili, J.-L Starck, and F.~Murtagh}, {\em Inpainting and zooming
+  using sparse representations}, The Computer Journal, 52 (2007), pp.~64--79.
+
+\bibitem{Figueiredo10b}
+{\sc M.~A.~T. Figueiredo and J.~M. Bioucas-Dias}, {\em Restoration of
+  {P}oissonian images using alternating direction optimization}, IEEE
+  Transactions on Image Processing,  (2010).
+
+\bibitem{FigueiredoNowak03}
+{\sc M.~A.~T. Figueiredo and R.~Nowak}, {\em An {EM} algorithm for
+  wavelet-based image restoration}, IEEE Transactions on Image Processing, 12
+  (2003), pp.~906--916.
+
+\bibitem{FortinGlowinski83}
+{\sc M.~Fortin and R.~Glowinski}, {\em Augmented {L}agrangian Methods:
+  Applications to the Numerical Solution of Boundary-Value Problems}, Elsevier
+  Science Publishers, Amsterdam, 1983.
+
+\bibitem{Gabay83}
+{\sc D.~Gabay}, {\em Applications of the method of multipliers to variational
+  inequalities}, in Augmented {L}agrangian Methods: Applications to the
+  Numerical Solution of Boundary-value Problems, M.~Fortin and R.~Glowinski,
+  eds., Amsterdam, 1983, North-Holland Publishing Company.
+
+\bibitem{GabayMercier76}
+{\sc D.~Gabay and B.~Mercier}, {\em A dual algorithm for the solution of
+  nonlinear variational problems via finite element approximation}, Computers
+  \& Mathematics with Applications, 2 (1976), pp.~17--40.
+
+\bibitem{GlowinskiLeTallec89}
+{\sc R.~Glowinski and P.~Le Tallec}, {\em Augmented {L}agrangian and
+  Operator-Splitting Methods in Nonlinear Mechanics}, SIAM, 1989.
+
+\bibitem{Jenatton10}
+{\sc R.~Jenatton, J.~Mairal, G.~Obozinski, and F.~Bach}, {\em Proximal methods
+  for hierarchical sparse coding}, ArXiv e-prints,  (2010).
+
+\bibitem{Korpelevich76}
+{\sc G.~M. Korpelevich}, {\em An extragradient method for finding saddle points
+  and for other problems}, Ekonom. Mat. Metody, 12 (1976), pp.~747--756.
+
+\bibitem{Kowalski09}
+{\sc M.~Kowalski and B.~Torr{\'e}sani}, {\em Sparsity and persistence: mixed
+  norms provide simple signal models with dependent coefficients}, Signal,
+  Image and Video Processing, 3 (2009), pp.~251--264.
+
+\bibitem{Lemaire96a}
+{\sc B.~Lemaire}, {\em Stability of the iteration method for nonexpansive
+  mappings}, Serdica Mathematical Journal, 22 (1996), pp.~331--340.
+
+\bibitem{Lemaire96b}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Which fixed point
+  does the iteration method select ?}, in Recent advances in optimization: the
+  8th French-German Conference on Optimization, P.~Gritzmann, R.~Horst,
+  E.~Sachs, and Tichatschke, eds., vol.~452 of Lecture Notes in Economics and
+  Mathematical Systems, 1997, pp.~154--167.
+
+\bibitem{Lieutaud69}
+{\sc J.~Lieutaud}, {\em Approximation d'Op\'erateurs par des M\'ethodes de
+  D\'ecomposition}, PhD thesis, Universit\'e de Paris, 1969.
+
+\bibitem{Lions78}
+{\sc P.-L. Lions}, {\em Une m{\'e}thode it{\'e}rative de r{\'e}solution d'une
+  in{\'e}quation variationnelle}, Israel Journal of Mathematics, 31 (1978),
+  pp.~204--208.
+
+\bibitem{LionsMercier79}
+{\sc P.-L. Lions and B.~Mercier}, {\em Splitting algorithms for the sum of two
+  nonlinear operators}, SIAM Journal on Numerical Analysis, 16 (1979),
+  pp.~964--979.
+
+\bibitem{Mallat99}
+{\sc S.~Mallat}, {\em {A Wavelet Tour of Signal Processing, Third Edition}},
+  Academic Press, 2008.
+
+\bibitem{Mercier79}
+{\sc B.~Mercier}, {\em Topics in finite element solution of elliptic problems},
+  Lectures on Mathematics, 63 (1979).
+
+\bibitem{Minty62}
+{\sc O.~J. Minty}, {\em Montone (nonlinear) operators in {H}ilbert space}, Duke
+  Math. J, 29 (1962), pp.~341--346.
+
+\bibitem{MonteiroSvaiter10}
+{\sc R.~D.~C. Monteiro and B.~F. Svaiter}, {\em Iteration-complexity of
+  block-decomposition algorithms and the alternating minimization augmented
+  {L}agrangian method}, submitted,  (2010).
+
+\bibitem{Moreau65}
+{\sc J.-J. Moreau}, {\em Proximit\'e et dualit\'e dans un espace hilbertien},
+  Bull. Soc. Math. France,  (1965).
+
+\bibitem{Nesterov07}
+{\sc Y.~Nesterov}, {\em Gradient methods for minimizing composite objective
+  function}, CORE Discussion Papers 2007076, Universit{\'e} catholique de
+  Louvain, Center for Operations Research and Econometrics (CORE), Sep 2007.
+
+\bibitem{Passty79}
+{\sc G.~B. Passty}, {\em Ergodic convergence to a zero of the sum of monotone
+  operators in {H}ilbert space}, Journal of Mathematical Analysis and
+  Applications, 72 (1979), pp.~383--390.
+
+\bibitem{PesquetPustelnik11}
+{\sc J.-C. Pesquet and N.~Pustelnik}, {\em A parallel inertial proximal
+  optimization method}, Pacific Journal of Optimization, 8 (2012),
+  pp.~273--306.
+
+\bibitem{PeyreFadili11}
+{\sc G.~Peyr{\'e} and M.~J. Fadili}, {\em Group sparsity with overlapping
+  partition functions}, in Proc. EUSIPCO 2011, 2011, pp.~303--307.
+
+\bibitem{Phelps93}
+{\sc R.~R. Phelps}, {\em Convex Functions, Monotone Operators and
+  Differentiability}, Lecture Notes Math., Springer-Verlag, second edition~ed.,
+  1993.
+
+\bibitem{Popov80}
+{\sc L.~D. Popov}, {\em A modification of the {A}rrow-{H}urwitz method of
+  search for saddle points}, Mat. Zametki, 28 (1980), pp.~777--784.
+
+\bibitem{Pustelnik11}
+{\sc N.~Pustelnik, C.~Chaux, and J.-C. Pesquet}, {\em Parallel proximal
+  algorithm for image restoration using hybrid regularization}, IEEE
+  Transactions on Image Processing, 20 (2011), pp.~2450--2462.
+
+\bibitem{Rockafellar70}
+{\sc R.~T. Rockafellar}, {\em Convex Analysis}, Princeton University Press,
+  1970.
+
+\bibitem{ROF92}
+{\sc L.~I. Rudin, S.~Osher, and E.~Fatemi}, {\em Nonlinear total variation
+  based noise removal algorithms}, Phys. D, 60 (1992), pp.~259--268.
+
+\bibitem{Solodov04}
+{\sc M.~V. Solodov}, {\em A class of decomposition methods for convex
+  optimization and monotone variational inclusions via the hybrid inexact
+  proximal point framework}, Optim. Methods Softw., 19 (2004), pp.~557--575.
+
+\bibitem{Spingarn83}
+{\sc J.~E. Spingarn}, {\em Partial inverse of a monotone operator}, Applied
+  Mathematics \& Optimization, 10 (1983), pp.~247--265.
+
+\bibitem{FadiliStarckBook09}
+{\sc J.-L. Starck, F.~Murtagh, and M.~J. Fadili}, {\em Sparse Signal and Image
+  Processing: Wavelets, Curvelets and Morphological Diversity}, Cambridge
+  University Press, Cambridge, UK, 2010.
+\newblock in press.
+
+\bibitem{Tseng91}
+{\sc P.~Tseng}, {\em Applications of splitting algorithm to decomposition in
+  convex programming and variational inequalities}, SIAM J. Control Optim., 29
+  (1991), pp.~119--138.
+
+\bibitem{Tseng97}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em Alternating
+  projection-proximal methods for convex programming and variational
+  inequalities}, SIAM Journal on Optimization, 7 (1997), pp.~951--965.
+
+\bibitem{Tseng00}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em A modified
+  forward-backward splitting method for maximal monotone mapping}, SIAM J.
+  Control Optim., 38 (2000).
+
+\bibitem{Tseng08}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em On accelerated
+  proximal gradient methods for convex-concave optimization}, submitted to SIAM
+  Journal on Optimization,  (2008).
+
+\bibitem{Vu11}
+{\sc B.~C. V{\~{u}}}, {\em A splitting algorithm for dual monotone inclusions
+  involving cocoercive operators}, Advances in Computational Mathematics,
+  (2011), pp.~1--15.
+\newblock to appear.
+
+\bibitem{YuanLin06}
+{\sc M.~Yuan and Y.~Lin}, {\em Model selection and estimation in regression
+  with grouped variables}, J. of The Roy. Stat. Soc. B, 68 (2006), pp.~49--67.
+
+\bibitem{Zarantonello71}
+{\sc E.~H. Zarantonello}, {\em I. projections on convex sets, contributions to
+  nonlinear functional analysis}, in Projections on convex sets in {H}ilbert
+  space and spectral theory, Academic Press, 1971, pp.~237--341.
+
+\end{thebibliography}

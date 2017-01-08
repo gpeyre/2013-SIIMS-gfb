@@ -1,0 +1,16 @@
+Archive content:
+
+images/ contains the image used in the experiments.
+Minimization/ contains the implementations of the different algorithms.
+Penalizations/ contains the implementations of the block-l1/lp and TV penalizations, as well as associated proximal operators.
+Results/ contains the results.
+Tests/ contains the scripts defining the problem and comparing the algorithms. 
+Tools/ & Utils/ contain some useful functions called by previous scripts.
+
+To run the experiments,
+ - open the right script (in Tests/)
+ - set the desired parameters (block size, regularization parameters, etc.)
+ - turn the report status on/off; on (true) is for recording the energies along iterations, while off (false) is for recording execution times. In the former case, be careful that if you changed the previous parameters, the value of PsiMin should change as well.
+ - launch the script.
+
+Hugo Raguet 2011

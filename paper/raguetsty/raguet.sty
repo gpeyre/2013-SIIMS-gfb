@@ -1,0 +1,419 @@
+%%% general %%%
+\usepackage[T1]{fontenc}
+% \usepackage[utf8x]{inputenc}
+% \usepackage{ucs} % unicodes characters
+
+%%% maths %%%
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+% \usepackage{MnSymbol} % special footnotes
+\usepackage{esint} % redefine integrals
+\usepackage{fancybox} % fancy box
+\usepackage{empheq} % fancy equations
+\usepackage{cancel} % stripe off
+\usepackage{units} % enables use of \nicefrac{}{} ('1/2', 'c/o', etc.)
+\usepackage{stmaryrd} % improved binary operators and delimiters
+%\DeclareMathOperator*{\bigtimes}{\vartimes}
+\usepackage{algorithm,algorithmic} % algorithm environment
+% \usepackage[ruled,vlined,algosection,algo2e]{algorithm2e} % defined in en or fr sty
+% \newcommand{\hmmax}{0}
+\newcommand{\bmmax}{2}
+\@ifclassloaded{beamer}{}{\usepackage{bm}}
+
+%%% usual graphics %%%
+\usepackage{graphicx}
+\@ifpackageloaded{hyperref}{}{\usepackage[justification=justified]{caption}}
+\usepackage[tight,centerlast]{subfigure}
+\usepackage{float}
+
+%%% graphics with eps %%% 
+% \usepackage[pdf]{pstricks}
+% \usepackage{pst-plot,pst-text,pst-tree,pst-eps,pst-fill,pst-node,pst-math}
+
+%%% improved tables %%%
+\usepackage{array}
+\newcolumntype{R}{>{\displaystyle}r}
+\newcolumntype{C}{>{\displaystyle}c}
+\newcolumntype{L}{>{\displaystyle}l}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+%%% misc %%%
+\usepackage{enumitem}
+\usepackage{textcomp} % some symbols and accents
+\usepackage{xcolor}
+\usepackage{xspace} % one blank space in front of any character, except spaces and ponctuations
+\usepackage{indentfirst} % ident first paragraph
+\usepackage{url}
+\usepackage{textgreek} % greek letters in text mode
+
+%%% centering big figures with \bigcenter command %%%
+\makeatletter
+\newskip\@bigflushglue \@bigflushglue = -100pt plus 1fil
+\def\bigcenter{\trivlist \bigcentering\item\relax}
+\def\bigcentering{\let\\\@centercr\rightskip\@bigflushglue%
+\leftskip\@bigflushglue
+\parindent\z@\parfillskip\z@skip}
+\def\endbigcenter{\endtrivlist}
+\makeatother
+
+%%% latin abbreviations %%%
+\newcommand{\cf}{\textit{cf.}~}
+\newcommand{\eg}{\textit{e.g.}~}
+\newcommand{\ie}{\textit{i.e.}~}
+\newcommand{\etc}{\textit{etc.}\xspace}
+
+%%% operators, symbols and delimiters %%%
+
+\usepackage{dsfont} % pretty number sets
+\newcommand{\N}{\mathds{N}}
+\newcommand{\Q}{\mathds{Q}}
+\newcommand{\R}{\mathds{R}}
+\newcommand{\Z}{\mathds{Z}}
+% double bar symbols
+\renewcommand{\AA}{\mathbb{A}}
+\newcommand{\BB}{\mathbb{B}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\DD}{\mathbb{D}}
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\GG}{\mathbb{G}}
+\newcommand{\HH}{\mathbb{H}}
+\newcommand{\II}{\mathbb{I}}
+\newcommand{\JJ}{\mathbb{J}}
+\newcommand{\KK}{\mathbb{K}}
+\newcommand{\LL}{\mathbb{L}}
+\newcommand{\MM}{\mathbb{M}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\OO}{\mathbb{O}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\renewcommand{\SS}{\mathbb{S}}
+\newcommand{\TT}{\mathbb{T}}
+\newcommand{\UU}{\mathbb{U}}
+\newcommand{\VV}{\mathbb{V}}
+\newcommand{\WW}{\mathbb{W}}
+\newcommand{\XX}{\mathbb{X}}
+\newcommand{\YY}{\mathbb{Y}}
+\newcommand{\ZZ}{\mathbb{Z}}
+% Rounded symbols
+\newcommand{\Aa}{\mathcal{A}}
+\newcommand{\Bb}{\mathcal{B}}
+\newcommand{\Cc}{\mathcal{C}}
+\newcommand{\Dd}{\mathcal{D}}
+\newcommand{\Ee}{\mathcal{E}}
+\newcommand{\Ff}{\mathcal{F}}
+\newcommand{\Gg}{\mathcal{G}}
+\newcommand{\Hh}{\mathcal{H}}
+\newcommand{\Ii}{\mathcal{I}}
+\newcommand{\Jj}{\mathcal{J}}
+\newcommand{\Kk}{\mathcal{K}}
+\newcommand{\Ll}{\mathcal{L}}
+\newcommand{\Mm}{\mathcal{M}}
+\newcommand{\Nn}{\mathcal{N}}
+\newcommand{\Oo}{\mathcal{O}}
+\newcommand{\Pp}{\mathcal{P}}
+\newcommand{\Qq}{\mathcal{Q}}
+\newcommand{\Rr}{\mathcal{R}}
+\newcommand{\Ss}{\mathcal{S}}
+\newcommand{\Tt}{\mathcal{T}}
+\newcommand{\Uu}{\mathcal{U}}
+\newcommand{\Vv}{\mathcal{V}}
+\newcommand{\Ww}{\mathcal{W}}
+\newcommand{\Xx}{\mathcal{X}}
+\newcommand{\Yy}{\mathcal{Y}}
+\newcommand{\Zz}{\mathcal{Z}}
+% Gothic symbols
+\newcommand{\fA}{\frak{A}}
+\newcommand{\fB}{\frak{B}}
+\newcommand{\fC}{\frak{C}}
+\newcommand{\fD}{\frak{D}}
+\newcommand{\fE}{\frak{E}}
+\newcommand{\fF}{\frak{F}}
+\newcommand{\fG}{\frak{G}}
+\newcommand{\fH}{\frak{H}}
+\newcommand{\fI}{\frak{I}}
+\newcommand{\fJ}{\frak{J}}
+\newcommand{\fK}{\frak{K}}
+\newcommand{\fL}{\frak{L}}
+\newcommand{\fM}{\frak{M}}
+\newcommand{\fN}{\frak{N}}
+\newcommand{\fO}{\frak{O}}
+\newcommand{\fP}{\frak{P}}
+\newcommand{\fQ}{\frak{Q}}
+\newcommand{\fR}{\frak{R}}
+\newcommand{\fS}{\frak{S}}
+\newcommand{\fT}{\frak{T}}
+\newcommand{\fU}{\frak{U}}
+\newcommand{\fV}{\frak{V}}
+\newcommand{\fW}{\frak{W}}
+\newcommand{\fX}{\frak{X}}
+\newcommand{\fY}{\frak{Y}}
+\newcommand{\fZ}{\frak{Z}}
+% greek
+\newcommand{\phy}{\varphi}
+\newcommand{\syg}{\varsigma}
+\newcommand{\Eps}{\varepsilon}
+\newcommand{\al}{\alpha}
+\newcommand{\be}{\beta}
+\newcommand{\ga}{\gamma}
+\newcommand{\Ga}{\Gamma}
+\newcommand{\de}{\delta}
+\newcommand{\De}{\Delta}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ka}{\kappa}
+\newcommand{\la}{\lambda}
+\newcommand{\La}{\Lambda}
+\renewcommand{\th}{\theta}
+\newcommand{\Th}{\Theta}
+\newcommand{\sig}{\sigma}
+\newcommand{\Sig}{\Sigma}
+\newcommand{\om}{\omega}
+\newcommand{\Om}{\Omega}
+% hat, tilde
+\newcommand{\hf}{\hat f}
+\newcommand{\wtf}{\tilde f}
+\newcommand{\tx}{\tilde x}
+\newcommand{\tb}{\tilde b}
+\newcommand{\ty}{\tilde y}
+\newcommand{\tu}{\tilde u}
+\newcommand{\tv}{\tilde v}
+\newcommand{\tga}{\tilde \ga}
+\newcommand{\tf}{\wt{f}}
+% bold
+\newcommand{\bA}{\boldsymbol A}
+\newcommand{\bB}{\boldsymbol B}
+\newcommand{\bC}{\boldsymbol C}
+\newcommand{\bT}{\boldsymbol T}
+\newcommand{\bb}{\boldsymbol b}
+\newcommand{\bu}{\boldsymbol u}
+\newcommand{\bv}{\boldsymbol v}
+\newcommand{\bw}{\boldsymbol w}
+\newcommand{\bx}{\boldsymbol x}
+\newcommand{\by}{\boldsymbol y}
+\newcommand{\bz}{\boldsymbol z}
+\newcommand{\bHh}{\boldsymbol \Hh}
+\newcommand{\bKk}{\boldsymbol \Kk}
+\newcommand{\bSs}{\boldsymbol \Ss}
+\newcommand{\bdprod}[2]{\left<\kern-4.5pt\left< #1\,\middle|\kern-2.5pt\middle|\,#2 \right>\kern-4.5pt\right>}
+\newcommand{\bnorm}[1]{\bm{|\kern-1pt|} #1 \bm{|\kern-1pt|}}
+\newcommand{\bnormb}[1]{\bm{\Big|\kern-1pt\Big|} #1 \bm{\Big|\kern-1pt\Big|}}
+\newcommand{\bnormB}[1]{\bm{\left|\kern-1pt\left|} #1 \bm{\right|\kern-1pt\right|}}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\px}{\mathbf{p}}
+\newcommand{\bk}{\mathbf{b}}
+\newcommand{\bal}{\boldsymbol\al}
+\newcommand{\bga}{\boldsymbol\ga}
+\newcommand{\beps}{\boldsymbol\eps}
+\newcommand{\bEps}{\boldsymbol\Eps}
+\newcommand{\bstar}{\boldsymbol*}
+\newcommand{\bId}{\mathbf{Id}}
+% space for optimal display
+\newcommand{\hx}{{\hphantom{\x}}}
+% iterations
+\newcommand{\It}{\ins{it}}
+\newcommand{\iter}{\ins{iter}}
+% textstyle
+\newcommand{\textsum}[2]{{\textstyle \sum_{#1}^{#2}}}
+\newcommand{\textfrac}[2]{{\textstyle \frac{#1}{#2}}}
+% fractions
+\newcommand{\half}{{\textstyle \frac{1}{2}}}
+\newcommand{\third}{{\textstyle \frac{1}{3}}}
+\newcommand{\fourth}{{\textstyle \frac{1}{4}}}
+\newcommand{\nth}[1]{{\textstyle \frac{1}{#1}}}
+% infinity
+\newcommand{\pinfty}{{+}\infty}
+\newcommand{\minfty}{{-}\infty}
+% operators and constructs
+\DeclareMathOperator{\realp}{\fR e}
+\DeclareMathOperator{\imagp}{\fI m}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\inte}{int}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\Ima}{Im}
+\DeclareMathOperator{\Corr}{Corr}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\cas}{cas}
+\DeclareMathOperator{\sinc}{sinc}
+\DeclareMathOperator{\cotan}{cotan}
+\DeclareMathOperator{\card}{card}
+\DeclareMathOperator{\PGCD}{PGCD}
+\DeclareMathOperator{\cpan}{span}
+\DeclareMathOperator{\vect}{vect}
+\DeclareMathOperator{\pen}{pen}
+\DeclareMathOperator{\DFT}{DFT}
+\DeclareMathOperator{\DWT}{DWT}
+\DeclareMathOperator{\prox}{prox}
+\DeclareMathOperator{\rprox}{rprox}
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\gra}{gra}
+\DeclareMathOperator{\ran}{ran}
+\DeclareMathOperator{\zer}{zer}
+\DeclareMathOperator{\ri}{ri}
+\DeclareMathOperator{\sri}{sri}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\fix}{fix}
+\DeclareMathOperator{\diver}{div}
+\makeatletter
+\@ifundefined{Tr}{\DeclareMathOperator{\Tr}{Tr}}{}
+\@ifundefined{supp}{\DeclareMathOperator{\supp}{supp}}{}
+\@ifundefined{grad}{\DeclareMathOperator{\grad}{grad}}{}
+\@ifundefined{diag}{\DeclareMathOperator{\diag}{diag}}{}
+\@ifundefined{rank}{\DeclareMathOperator{\rank}{rank}}{}
+\@ifundefined{ker}{\DeclareMathOperator{\ker}{ker}}{}
+\makeatother
+\renewcommand{\div}{\mathrm{div}}
+\renewcommand{\Im}{\mathrm{Im}}
+\newcommand{\uargmin}[1]{\underset{#1}{\argmin}}
+\newcommand{\uargmax}[1]{\underset{#1}{\argmax}}
+\newcommand{\umin}[1]{\underset{#1}{\min}}
+\newcommand{\umax}[1]{\underset{#1}{\max}}
+%% Ck, lp, Lp spaces
+\newcommand{\lp}[1]{\ell_{#1}}
+\newcommand{\Lp}[1]{L_{#1}}
+\newcommand{\C}[1]{C^{#1}}
+%% circle; sphere; other usual sets
+\newcommand{\Sph}[1]{\mathds{S}^{#1}}
+\newcommand{\GL}[1]{\Gg\Ll_{#1}}
+\newcommand{\GO}[1]{\Oo_{#1}}
+% little space after forall and exists
+\newcommand{\foralls}{\forall \,}
+\newcommand{\existss}{\exists \,}
+% for derivatives
+\renewcommand{\d}{\ins{d}}
+%% over-symbols
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\wh}[1]{\widehat{#1}}
+\newcommand{\whwh}[1]{\hat{\hat{#1}}}
+\newcommand{\wt}[1]{\widetilde{#1}}
+%% partial derivatives
+\newcommand{\pd}[2]{ \frac{ \partial #1}{\partial #2} }
+\newcommand{\pdd}[2]{ \frac{ \partial^2 #1}{\partial #2^2} }
+\newcommand{\pdn}[2]{ \frac{ \partial^n #1}{\partial #2^n} }
+% imaginary unit i
+\renewcommand{\imath}{\mathrm{i}}
+\renewcommand{\i}{\mathrm{i}}
+% topologic interior
+\newcommand{\interior}[1]{\ensuremath{\overset{\circ}{#1}}}
+% Legendre symbol
+\newcommand{\legsymb}[2]{ \genfrac{(}{)}{}{}{#1}{#2} }
+% exposant pour les ordinaux
+\newcommand{\ordin}[2]{ ${#1}^{ \text{#2} }$ }
+%% Dot product and cross product
+\newcommand{\cprod}[2]{#1\!\cdot\!#2}
+\newcommand{\dotp}[2]{\langle #1,\,#2\rangle}
+\newcommand{\dprod}[2]{\left\langle #1\,\middle|\,#2\right\rangle}
+\newcommand{\crossp}[2]{ #1 \hat #2 }
+\newcommand{\norm}[1]{|\kern-1pt| #1 |\kern-1pt|}
+\newcommand{\normb}[1]{\Big|\kern-1pt\Big| #1 \Big |\kern-1pt\Big|}
+\newcommand{\normB}[1]{\left|\kern-1pt\left| #1 \right|\kern-1pt\right|}
+\newcommand{\abs}[1]{\lvert #1 \rvert}
+\newcommand{\absb}[1]{\Big| #1 \Big|}
+\newcommand{\absB}[1]{\left| #1 \right|}
+\newcommand{\normTV}[1]{\norm{#1}_{\text{TV}}}
+\newcommand{\normT}[1]{\norm{#1}_{\text{T}}}
+%% function definition
+\newcommand{\func}[4]{ {\left\{  \begin{array}{ccc} #1 & \longrightarrow & #2 \\ #3 & \longmapsto & #4 \end{array}  \right.} }
+% matricial operators
+\newcommand{\transp}[1]{{#1}^{\!\top}\!}
+\newcommand{\adj}[1]{{#1}^{\bstar}}
+\newcommand{\pinv}[1]{{#1}^{{+}}}
+\newcommand{\inv}[1]{{#1}^{\text{-}1}}
+% convergence
+\newcommand{\converge}[2]{\xrightarrow[#1\rightarrow#2]{}}
+\newcommand{\cv}{\longrightarrow}
+\newcommand{\convweak}[2]{\xrightharpoonup[#1\rightarrow#2]{}}
+\newcommand{\cvwk}{\xrightharpoonup[\hphantom{\longrightarrow}]{}}
+%% equation environment
+\newcommand{\eq}[1]{\begin{equation*}#1\end{equation*}}
+\newcommand{\eql}[1]{\begin{equation}#1\end{equation}}
+%% parenthesis and delimiters
+\newcommand{\pa}[1]{\left( #1 \right)}
+\newcommand{\cur}[1]{\left\{ #1 \right\}}
+\newcommand{\ket}[1]{\left[ #1 \right]}
+\newcommand{\bpa}[1]{\big( #1 \big)}
+% set definition
+\newcommand{\setdef}[2]{\cur{ #1 \;\middle|\; #2 }}
+%% spaces and text
+\newcommand{\ins}[1]{\mathrm{#1}}
+\newcommand{\intext}[1]{\text{\small #1}}
+\newcommand{\sobjs}[1]{~\text{#1}~}
+\newcommand{\qobjq}[1]{\quad \text{#1} \quad}
+\newcommand{\qqobjqq}[1]{\qquad \text{#1} \qquad}
+% restrictions
+\newlength{\restsubwidth}
+\newlength{\restsubheight}
+\newlength{\restsubmoreheight}
+\setlength{\restsubmoreheight}{4pt}
+\newcommand{\rest}[2]{%
+        \settowidth{\restsubwidth}{\ensuremath{#2}}
+        \settoheight{\restsubheight}{\ensuremath{{}_{#2}}}
+        \ensuremath{{#1\hskip 0.5pt}_{\vrule\kern2pt\parbox[b][%
+        4pt][b]{\the\restsubwidth}{%
+                        \ensuremath{{}_{#2}}}}}
+        }
+% indicator function
+\newcommand{\one}[1]{\mathbf{1}_{\cur{#1}}}
+% prime exposant
+\newcommand{\prim}{^{\prime}}
+% set of successive integers
+\newcommand{\bbket}[1]{\llbracket#1\rrbracket}
+% small matrices and vector
+\newcommand{\bivec}[2]{%
+	\pa{ \begin{array}{c} %
+		#1 \\
+		#2
+	     \end{array} } }
+\newcommand{\trivec}[3]{%
+	\pa{ \begin{array}{c} %
+		#1 \\
+		#2 \\
+		#3
+	     \end{array} } }
+\newcommand{\bimat}[4]{%
+	\pa{ \begin{array}{cc} %
+		#1 & #2 \\
+		#3 & #4
+	     \end{array} } }
+\newcommand{\trimat}[9]{%
+	\pa{ \begin{array}{ccc} %
+		#1 & #2 & #3 \\
+		#4 & #5 & #6 \\
+		#7 & #8 & #9
+	     \end{array} } }
+\newcommand{\Bivec}[2]{%
+	\pa{ \begin{array}{C} %
+		#1 \\
+		#2
+	     \end{array} } }
+\newcommand{\Trivec}[3]{%
+	\pa{ \begin{array}{C} %
+		#1 \\
+		#2 \\
+		#3
+	     \end{array} } }
+\newcommand{\Bimat}[4]{%
+	\pa{ \begin{array}{CC} %
+		#1 & #2 \\
+		#3 & #4
+	     \end{array} } }
+\newcommand{\Trimat}[9]{%
+	\pa{ \begin{array}{CCC} %
+		#1 & #2 & #3 \\
+		#4 & #5 & #6 \\
+		#7 & #8 & #9
+	     \end{array} } }
+
+%%% specific notations %%%
+\newcommand{\DFF}{^{\Delta\hspace{-2pt}F}\hspace{-8pt}\diagup\hspace{-6pt}_{F}}
+
+%%% to insert comments in the final text (green, italic) %%%
+\newcommand{\comment}[1]{\textcolor{green}{\textit{#1}}}
+
+% misc2 

@@ -1,0 +1,50 @@
+%%% general %%%
+% \usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc}
+% \usepackage{ucs}  % unicodes characters
+\usepackage{raguetsty/raguet}
+\usepackage[english]{babel}
+
+%%% maths %%%
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[ruled,vlined,algosection,algo2e]{algorithm2e}
+\makeatletter
+\@ifundefined{proof}{
+	\usepackage{amsthm}
+	\newtheorem{theorem}{Theorem}[section]
+	\newtheorem{corollary}{Corollary}[section]
+	\newtheorem{lemma}{Lemma}[section]
+	\newtheorem{proposition}{Proposition}[section]
+	\theoremstyle{remark}
+	\newtheorem{remark}{Remark}[section]
+	\newtheorem{example}{Example}[section]
+	\theoremstyle{definition}
+	\newtheorem{definition}{Definition}[section]
+}{
+	\newtheorem{remark}{Remark}[section]
+}
+\makeatother
+
+%%% dynamic references to figures, tables, theorems and sections %%%
+\newcommand{\cff}[1]{Figure~\ref{#1}}
+\newcommand{\cft}[1]{Table~\ref{#1}}
+\newcommand{\cffp}[1]{Figure~\ref{#1}, page \pageref{#1}}
+\newcommand{\cftp}[1]{Table~\ref{#1}, page \pageref{#1}}
+
+\newcommand{\bref}[1]{\textbf{\ref{#1}}}
+\newcommand{\sref}[1]{Section~\ref{#1}}
+\newcommand{\aref}[1]{Algorithm~\ref{#1}}
+\newcommand{\anref}[1]{Annex~\ref{#1}}
+\newcommand{\cref}[1]{Corollary~\ref{#1}}
+\newcommand{\pref}[1]{Proposition~\ref{#1}}
+\newcommand{\tref}[1]{Theorem~\ref{#1}}
+\newcommand{\lref}[1]{Lemma~\ref{#1}}
+\newcommand{\dref}[1]{Definition~\ref{#1}}
+\newcommand{\rref}[1]{Remark~\ref{#1}}
+
+% definition
+\newcommand{\eqdef}{\stackrel{\mathrm{\scriptscriptstyle{def}}}{=}}
+\newcommand{\equivdef}{\stackrel{\mathrm{\scriptscriptstyle{def}}}{\Leftrightarrow}}
+
